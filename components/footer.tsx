@@ -6,7 +6,7 @@ var date = new Date();
 const Footer = () =>{
     return(
         <>
-            <footer className=" bg-gray-800 mt-auto py-10 text-white" >
+            <footer className=" bg-gray-800 mt-auto py-10 text-white bottom-0" >
                 <div className="container mx-auto grid place-items-center">
                     <Link href={'https://github.com/Niall-Sharma'} passHref>
                         <a className="text-center mb-4 w-20" target={'_blank'} rel='noreferrer'>

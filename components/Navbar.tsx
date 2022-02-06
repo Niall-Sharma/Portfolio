@@ -18,7 +18,7 @@ const NavBar = () => {
                 <NavButton navLink='/'>
                     Home
                 </NavButton>
-                <NavButton navLink='/'>
+                <NavButton navLink='projects'>
                     Projects
                 </NavButton>
                 <NavButton navLink='/'>
