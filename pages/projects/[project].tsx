@@ -13,8 +13,8 @@ export async function getServerSideProps(context) {
 
 const Project = () => {
     const router = useRouter();
-    const {project} = projects[router.query];
-    if(!project) return <p></p>;
+    const { project } = router.query
+    console.log(router.query);
     return(
         <>
             <NavBar />
