@@ -6,22 +6,22 @@ interface Props {
     image : string, 
     page :string, 
     title :any,
-    children:any
+    desc:any
   }
 
-const ProjectCard: React.FC<Props> = ({image, page, title, children}) =>{
+const ProjectCard: React.FC<Props> = ({image, page, title, desc}) =>{
     return(
         <>
             <div className="max-w-sm rounded overflow-hidden shadow-2xl group relative">
                     <Link href={page} passHref>
                         <a>
-                            <div className="mx-auto text-center text-white overlay absolute opacity-0 z-50 top-1/2 transform -translate-y-1/2 group-hover:opacity-100 transition-opacity duration-500">
-                                <p className="text-md">{children}</p>
+                            <div className="mx-auto text-center text-white overlay absolute opacity-0 z-50 top-1/3 transform -translate-y-1/2 group-hover:opacity-100 transition-opacity duration-500">
+                            <p className="text-xl">{desc}</p>
                             </div>
-                            <img src={image} className="group-hover:brightness-50 duration-500 w-full" title="View Full Page" />
+                            <img src={image} className="group-hover:brightness-25 duration-500 w-full h-full" title="View Full Page" />
                         </a>
                     </Link>
-                <h1 className="mx-auto text-center text-4xl bg-black text-white">{title}</h1>
+                <h1 className="text-center text-4xl pt-5 bg-black text-white w-full bottom-0 absolute h-1/4">{title}</h1>
             </div>
         </>
     )

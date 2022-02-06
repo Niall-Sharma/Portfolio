@@ -6,7 +6,7 @@ const IndexPage = () => (
   <>
     <NavBar />
     <LandingGraphic />
-    <Layout title='Home'>
+    <Layout title='NS - Home'>
       <div className='container mx-auto mt-14'>
         <p>Amet labore nostrud excepteur ullamco. Fugiat consequat consequat do ex labore ullamco veniam culpa sunt irure laboris voluptate. Do aute voluptate enim veniam in anim et nisi sit irure velit ea enim nulla. Sint culpa nulla duis pariatur duis magna sit non eu. Sint cillum sunt dolore voluptate occaecat.
 
