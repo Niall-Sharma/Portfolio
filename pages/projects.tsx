@@ -12,7 +12,7 @@ const ProjectsPage = () => {
                     page = "/"
                     title="Persona 5"
                     >
-                        Description
+                        Nisi minim occaecat excepteur mollit sint duis qui minim labore do reprehenderit veniam quis irure. Deserunt nulla magna magna minim ut reprehenderit sunt incididunt consequat ex commodo veniam officia. Lorem amet pariatur excepteur elit reprehenderit non officia.
                     </ProjectCard>
                 </div>
             </Layout>

@@ -12,17 +12,16 @@ interface Props {
 const ProjectCard: React.FC<Props> = ({image, page, title, children}) =>{
     return(
         <>
-            <div className="max-w-sm rounded overflow-hidden shadow-lg">
-                <div className="hover:opacity-80 duration-150">
+            <div className="max-w-sm rounded overflow-hidden shadow-2xl group relative">
                     <Link href={page} passHref>
-                        <a><img src={image} className="w-full" title="View Full Page" />
+                        <a>
+                            <div className="mx-auto text-center text-white overlay absolute opacity-0 z-50 top-1/2 transform -translate-y-1/2 group-hover:opacity-100 transition-opacity duration-500">
+                                <p className="text-md">{children}</p>
+                            </div>
+                            <img src={image} className="group-hover:brightness-50 duration-500 w-full" title="View Full Page" />
                         </a>
                     </Link>
-                </div>
-                <h1 className="mx-auto text-center text-4xl bg-gray-800 text-white">{title}</h1>
-                <div className="mx-auto text-center pt-5 pb-5 bg-gray-800 text-white">
-                    {children}
-                </div>
+                <h1 className="mx-auto text-center text-4xl bg-black text-white">{title}</h1>
             </div>
         </>
     )
