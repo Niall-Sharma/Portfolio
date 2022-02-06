@@ -8,6 +8,8 @@ const Footer = () =>{
         <>
             <footer className=" bg-gray-800 mt-auto py-10 text-white bottom-0" >
                 <div className="container mx-auto grid place-items-center">
+
+                    {/* GitHub Page */}
                     <Link href={'https://github.com/Niall-Sharma'} passHref>
                         <a className="text-center mb-4 w-20" target={'_blank'} rel='noreferrer'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="white"  viewBox="0 0 16 16">
@@ -15,7 +17,10 @@ const Footer = () =>{
                             </svg>
                         </a>
                     </Link>
+                    
                     <hr className=" w-3/4 2xl:w-full mx-auto" />
+
+                    {/* Copyright Notice */}
                     <h1 className="mt-5 md:text-2xl">© {date.getFullYear()} Niall Sharma All Rights Reserved</h1>
                 </div>
             </footer>

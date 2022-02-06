@@ -8,17 +8,18 @@ const ProjectsPage = () => {
             <NavBar />
             <Layout title='NS - Projects'>
                 <div className='container mx-auto mt-14 flex-grow grid grid-cols-1 lg:grid-cols-4 gap-4'>
+
+                    {/* Map over all items found in Project Previews */}
                     {Projects.map(project => {
                         return(
-
                                 <ProjectCard
                                 image={project.cover}
                                 page={project.slug}
                                 desc={project.excerpt}
                                 title={project.title}
                                 key={project.id}
-                                >
-                                </ProjectCard>
+                                 />
+
                         )
                     })}
                 </div>

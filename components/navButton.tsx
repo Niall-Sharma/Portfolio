@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
+//Button component found in navbar
 const NavButton = ({navLink, children}) => {
     return(
         <>

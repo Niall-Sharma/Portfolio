@@ -1,5 +1,6 @@
 import { defaultCipherList } from "constants";
 import React from "react";
+//Landing Page Start Graphic
 const LandingGraphic = () =>{
     return(
     <>

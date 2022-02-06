@@ -5,23 +5,24 @@ import Link from "next/link";
 import NavBar from "../../components/Navbar";
 import projects from '../../util/projectViews.json'
 
-export async function getServerSideProps(context) {
-    return {
-      props: {}, // will be passed to the page component as props
-    }
-  }
-
+//Wrapper page for all project pages
 const Project = () => {
+
+    //Find router and item from Project Views that is associated with this page
     const router = useRouter();
-    const { project } = router.query
-    console.log(router.query);
+    var { project } = router.query;
+    if(!project) return <p></p>;
+    var item = projects[project.toString()];
+
+    //Find item associated with this page
+    console.log(item);
     return(
         <>
             <NavBar />
-           <Layout title={"NS - " + project}>
-                <h1 className="">{project}</h1>
-                
-
+           <Layout title={"NS - " + item.title}>
+               <div className="container1">
+                    <h1 className="">F</h1>
+                </div>
             </Layout> 
 
         </>
