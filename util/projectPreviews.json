@@ -1,10 +1,10 @@
 
 [
     {
-        "id": 1,
+        "id": "1",
         "cover": "https://image.api.playstation.com/vulcan/img/cfn/11307XlqDFlHmHWGjBPndSappCDTnE9OmnP2P-dSzcvLX9i0pvH_okJOl6dP1AnZefxthD-2k3RrsdzYU_BqUy9K5_sv-Tnx.png",
         "title": "Persona 5",
-        "slug": "projects/1",
+        "slug": "projects/id=1",
         "excerpt": "A Sleek Purple Landing Page For an online training platform. Learn some important CSS concepts by building a landing page"
     },
     {
@@ -16,8 +16,8 @@
     },
     {
         "id": 3,
-        "title": "Test",
-        "cover": "https://uploads.sitepoint.com/wp-content/uploads/2021/10/1633599423hackernewsclone.png",
+        "title": "Persona 5 Dancing In Starlight",
+        "cover": "https://image.api.playstation.com/cdn/EP2475/CUSA12813_00/Xgb5TdxJR8i1yfRLWYEBXVBXrYtn1mu1.png",
         "slug":  "projects/3",
         "excerpt": "Eu consectetur cupidatat proident non in non nostrud nulla nisi fugiat do sunt ex nulla. Occaecat deserunt aliquip irure amet sint excepteur dolor quis ex labore."
     },

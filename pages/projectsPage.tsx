@@ -6,7 +6,7 @@ const ProjectsPage = () => {
     return(
         <>
             <NavBar />
-            <Layout title='NS - Projects'>
+            <Layout title='Projects'>
                 <div className='container mx-auto mt-14 flex-grow grid grid-cols-1 lg:grid-cols-4 gap-4'>
 
                     {/* Map over all items found in Project Previews */}
