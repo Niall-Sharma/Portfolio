@@ -28,11 +28,12 @@ const ProjectCard: React.FC<Props> = ({image, page, title, desc}) =>{
 
                             {/* Image */}
                             <img src={image} className="group-hover:brightness-25 duration-500 w-full h-full" title="View Full Page" />
+                            {/* Project Title */}
+                            <h1 className="text-center text-4xl pt-5 opacity-0 text-white w-full bottom-0 absolute h-1/4 group-hover:opacity-100 transition-opacity duration-500">{title}</h1>
+
                         </a>
                     </Link>
                     
-                {/* Project Title */}
-                <h1 className="text-center text-4xl pt-5 bg-black text-white w-full bottom-0 absolute h-1/4">{title}</h1>
             </div>
         </>
     )
