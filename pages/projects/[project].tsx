@@ -20,11 +20,10 @@ const Project = () => {
         <>
             <NavBar />
            <Layout title={"NS - " + item.title}>
-               <div className="container1">
+               <div className="container mx-auto mt-20">
                     <h1 className="">F</h1>
                 </div>
             </Layout> 
-
         </>
     )
 
