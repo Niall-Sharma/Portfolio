@@ -1,12 +1,12 @@
 {
-    "1": {
+    "id=1": {
         "title": "Persona 5",
         "sourceCode":"/",
         "description":"Persona 5 is a JRPG produced by Atlus Games and is kinda fun"
     },
-    "2": {
-        "title": "Persona 5",
+    "id=2": {
+        "title": "Persona 4",
         "sourceCode":"/",
-        "description":"Persona 5 is a JRPG produced by Atlus Games and is kinda fun"
+        "description":"Persona 4 is a JRPG produced by Atlus Games and is kinda fun"
     }
 }

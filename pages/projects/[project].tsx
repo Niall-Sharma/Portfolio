@@ -10,9 +10,9 @@ const Project = () => {
 
     //Find router and item from Project Views that is associated with this page
     const router = useRouter();
-    var { project } = router.query;
+    let { project } = router.query;
     if(!project) return <p></p>;
-    var item = projects[project.toString()];
+    let item = projects[project.toString()];
 
     //Find item associated with this page
     console.log(item);
@@ -21,7 +21,8 @@ const Project = () => {
             <NavBar />
            <Layout title={"NS - " + item.title}>
                <div className="container mx-auto mt-20">
-                    <h1 className="">F</h1>
+                    <h1 className="">{item.title}</h1>
+                    <p>{item.description}</p>
                 </div>
             </Layout> 
         </>
