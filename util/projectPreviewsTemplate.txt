@@ -1,0 +1,10 @@
+
+[
+    {
+        "id": 1,
+        "cover": ICON,
+        "title": GAME NAME, 
+        "slug": "projects/id=ID",
+        "excerpt": DESCRIPTION
+    },
+]
