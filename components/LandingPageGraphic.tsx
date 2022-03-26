@@ -6,7 +6,7 @@ const LandingGraphic = () =>{
     <>
         <div className="
         text-center 
-        p-20 
+        p-20
         md:p-60 
         mx-auto 
         bg-red-500
@@ -16,11 +16,6 @@ const LandingGraphic = () =>{
 
             <header className="md:text-7xl lg:text-8xl">Niall Sharma</header>
             <h1 className="text-white text-xl">Game & Skill Portfolio</h1>
-            <div className="wave hidden md:block">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" className="shape-fill"></path>
-                </svg>
-            </div>
         </div>
     </>
     )

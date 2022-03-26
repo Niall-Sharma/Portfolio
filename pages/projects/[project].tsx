@@ -15,7 +15,6 @@ const Project = () => {
     let item = projects[project.toString()];
 
     //Find item associated with this page
-    console.log(item);
     return(
         <>
             <NavBar />

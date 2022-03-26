@@ -1,31 +1,3 @@
-
 [
-    {
-        "id": 1,
-        "cover": "https://image.api.playstation.com/vulcan/img/cfn/11307XlqDFlHmHWGjBPndSappCDTnE9OmnP2P-dSzcvLX9i0pvH_okJOl6dP1AnZefxthD-2k3RrsdzYU_BqUy9K5_sv-Tnx.png",
-        "title": "Persona 5",
-        "slug": "projects/id=1",
-        "excerpt": "Persona 5 Royal is a new challenge to defy conventions, discover the power within, and fight for justice."
-    },
-    {
-        "id": 2,
-        "title": "Back Jump",
-        "cover": "/public/cool-background.png",
-        "slug": "projects/id=2",
-        "excerpt": "Learn how to build CRUD applications with React and HarperDB. This in depth tutorials covers a lot about API integartion"
-    },
-    {
-        "id": 3,
-        "title": "Test",
-        "cover": "https://uploads.sitepoint.com/wp-content/uploads/2021/10/1633599423hackernewsclone.png",
-        "slug":  "projects/id=3",
-        "excerpt": "Eu consectetur cupidatat proident non in non nostrud nulla nisi fugiat do sunt ex nulla. Occaecat deserunt aliquip irure amet sint excepteur dolor quis ex labore."
-    },
-    {
-        "id": 4,
-        "title": "Test",
-        "cover": "https://uploads.sitepoint.com/wp-content/uploads/2021/10/1633599423hackernewsclone.png",
-        "slug":  "projects/id=4",
-        "excerpt": "Eu consectetur cupidatat proident non in non nostrud nulla nisi fugiat do sunt ex nulla. Occaecat deserunt aliquip irure amet sint excepteur dolor quis ex labore."
-    }
+    
 ]

@@ -15,7 +15,7 @@ body {
     background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Wolf%E2%80%93Lundmark%E2%80%93Melotte_%28transparent_background%29.png/1200px-Wolf%E2%80%93Lundmark%E2%80%93Melotte_%28transparent_background%29.png) repeat;
 }
 
-.wave {
+.triangle {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -24,13 +24,13 @@ body {
   line-height: 0;
 }
 
-.wave svg {
+.triangle svg {
   position: relative;
   display: block;
-  width: calc(161% + 1.3px);
-  height: 92px;
+  width: calc(100% + 1.3px);
+  height: 100px;
 }
 
-.wave .shape-fill {
+.triangle .shape-fill {
   fill: #FFFFFF;
 }

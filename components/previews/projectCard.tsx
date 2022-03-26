@@ -22,7 +22,8 @@ const ProjectCard: React.FC<Props> = ({image, page, title, desc}) =>{
                         <a>
 
                             {/* Centered text on image */}
-                            <div className="mx-auto 
+                            <div className="
+                            mx-auto 
                             text-center 
                             text-white 
                             overlay 
